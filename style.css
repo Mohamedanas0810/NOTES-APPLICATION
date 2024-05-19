@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(95deg, #7743DB, #89CFF3);
+}
+.notes{
+    margin: 150px auto 50px 100px;
+    height:fit-content;
+    padding: 10px;
+    width:800px;
+    /* background-color: #fff; */
+    color:#fff;
+}
+.title{
+    padding: 10px 10px 0px 10px;
+}
+.logo{
+    height:30px;
+    width: 30px;
+    margin: auto 0px auto 0px;
+}
+.line{
+    margin: 20px 0px 10px 0px ;
+}
+.description{
+    /* padding: 0px 10px 0px 10px; */
+    margin: auto 10px auto 0px;
+}
+.createnotes{
+    height: fit-content;
+    width: fit-content;
+    padding: 6px;
+    display: flex;
+    border-radius: 10px;
+    background-color: #fff;
+    border: 1px solid #fff;
+    margin:0px 0px 0px auto;
+    color:#7743DB;
+    cursor: pointer;
+}
+.create{
+    height: 30px;
+    width:30px;
+}
+.content{
+    margin: auto 5px auto 0px;
+}
+.container{
+    display: flex;
+}
+.notesarea{
+    width:100%;
+    margin:10px 0px 10px 0px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.notes1{
+    margin:1px 5px 5px 1px;
+    position: relative;
+    height:200px;
+    width:250px;
+    background-color: #FFF78A;
+    border-radius: 5px;
+    color:black;
+    padding: 10px;
+}
+.delete{
+    height: 15px;
+    position: absolute;
+    bottom:15px;
+    right:10px;
+    width:18px;
+    margin:auto 0px 0px 0px;
+    cursor: pointer;
+}
